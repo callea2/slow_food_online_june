@@ -6,4 +6,5 @@ Feature: As a visitor
 
   Scenario: Get visitor geolocation
     Given I am on the "home" page
+    And I see a Google Map
     Then my location should be established
