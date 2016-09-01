@@ -31,6 +31,7 @@ group :development, :test do
   gem 'capybara-screenshot'
   gem 'launchy'
   gem 'poltergeist'
+  gem 'dotenv-rails'
 end
 
 group :development do
