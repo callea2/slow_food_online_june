@@ -30,6 +30,9 @@ Given(/^I have added items to my cart$/) do
   }
 end
 
-Then(/^I should see a list of items$/) do
-  pending # Write code here that turns the phrase above into concrete actions
+Then(/^I should see a list of my items$/) do
+  steps %q{
+    Then I should see "Capricciosa"
+    Then I should see "Margharita"
+  }
 end

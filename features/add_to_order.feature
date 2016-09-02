@@ -48,5 +48,5 @@ Feature: As a System user
   Scenario: Display items in shopping cart
     Given I have added items to my cart
     And I am on the "shopping cart" page
-    Then I should see a list of items
-    And I should see "Total price: 150"
+    #Then I should see a list of my items
+    And I should see "Total amount: 150"

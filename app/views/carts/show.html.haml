@@ -1,3 +1,8 @@
 .row
   .large-12.columns
     %h4 Order summary
+.row
+  - @order.shopping_cart_items.each do |item|
+    %li
+      %p
+        Total amount: #{@order.subtotal}
